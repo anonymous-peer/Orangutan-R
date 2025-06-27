@@ -1,0 +1,25 @@
+Package: Orangutan
+Type: Package
+Title: Analyze and Visualize Phenotypic Data for Species Descriptions
+Version: 0.1.0
+Authors@R: 
+    person("Anonymous", "Anonymous", email = "anonymous@gmail.com", role = c("aut", "cre"))
+Description: This package provides tools to analyze and visualize phenotypic data in the context of species descriptions. It enables users to perform summary statistics, multivariate analyses, and generate publication-quality plots.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.0.0)
+Imports:
+    adegenet,
+    dunn.test,
+    dplyr,
+    ggplot2,
+    ggpubr,
+    multcompView,
+    tidyr,
+    RColorBrewer,
+    methods
+LazyData: true
+URL: https://github.com/Anonymous/Orangutan-R
+BugReports: https://github.com/Anonymous/Orangutan-R/issues
