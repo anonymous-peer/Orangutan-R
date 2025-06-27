@@ -27,7 +27,7 @@ Install the package from GitHub using the `devtools` package:
    ```
    ```R
    # Install Orangutan
-   devtools::install_github("metalofis/Orangutan-R")
+   devtools::install_github("anonymous-peer/Orangutan-R")
    ```
 
 ---
